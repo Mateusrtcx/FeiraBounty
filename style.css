@@ -246,8 +246,6 @@ main {
 [class^="Card-"]:hover {
     transform: scale(1.05);
     box-shadow: #023cdd 0px 10px 20px 0px;
-    
-    /* Adiciona a borda por fora sem alterar o tamanho do card */
     outline: 2px solid #023cdd; 
 }
 
