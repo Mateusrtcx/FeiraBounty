@@ -486,7 +486,7 @@ footer {
     .cards {
         grid-template-columns: 1fr;
         width: 100%;
-        max-width: 360px;
+        max-width: 410px;
         padding: 0 15px;
         box-sizing: border-box;
         gap: 55px;
