@@ -5,13 +5,17 @@ body {
     max-width: 100%;
     font-family: Poppins, sans-serif;
     box-sizing: border-box;
-    background-color: #121215;
+    background-color:#121215;
 }
 
 header {
     display: flex;
     justify-content: space-between;
-    background-color: #1a1a1a;
+        
+        
+        
+     background-color: #1a1a1a; 
+    height: 50px;
     position: fixed;
     width: 100%;
     top: 0;
@@ -21,8 +25,9 @@ header {
 
 .logo {
     cursor: pointer;
-    width: 60px;
-    height: 60px;
+    width: 37px;
+    margin-top: 5px;
+    height: 37px;
 }
 
 .div-logo {
@@ -53,7 +58,49 @@ header {
     display: flex;
 }
 
+
+.ul-nav li a {
+    font-weight: bold;
+    font-size: 16px;
+    text-decoration: none; 
+    color: white;        
+    display: inline-flex;
+    align-items: center;
+    gap: 15px;          
+}
+
+.ul-nav{
+
+    transition: all ease-in-out 0.2s;
+    display: flex;
+    align-items: center;
+    gap: 25px;
+    display: flex;
+    list-style: none;
+  
+
+
+
+}
+
+.ul-nav :hover{
+
+    color: #0703ff;
+    transform: scale(1.02);
+    
+
+
+
+}
+
+
+
+
+
+
 .ul-list {
+  
+    display: flex;
     align-items: center;
     gap: 30px;
     display: flex;
@@ -62,14 +109,30 @@ header {
     margin-right: 80px;
 }
 
-.redes-sociais img {
-    margin: 0 5px;
-    transition: transform 0.3s ease-in-out;
-    cursor: pointer;
-    width: 35px;
+.redes-sociais{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+
 }
 
+.redes-sociais img {
+    margin: 0 5px;
+    margin-top: 5px;
+    transition: transform 0.3s ease-in-out;
+    cursor: pointer;
+    width: 20px;
+   
+}
+
+
+
 .redes-sociais :hover {
+    
+
     transform: scale(1.05);
 }
 
@@ -77,7 +140,19 @@ header {
     cursor: pointer;
 }
 
+.nav-list{
+
+     display: flex;
+    align-items: center;
+    justify-content: center;
+
+
+
+}
+
+
 .ul-list li a {
+
     text-decoration: none; 
     color: white;        
     display: inline-flex;
@@ -86,6 +161,7 @@ header {
 }
 
 .user {
+    
     transition: transform 0.3s ease-in-out;
     color: #fff;
     white-space: nowrap;
@@ -108,6 +184,8 @@ header {
 .user:hover {
     transform: scale(1.05);
 }
+
+
 
 .container-principal {
     margin-top: 40px;
@@ -246,6 +324,8 @@ main {
 [class^="Card-"]:hover {
     transform: scale(1.05);
     box-shadow: #023cdd 0px 10px 20px 0px;
+    
+
     outline: 2px solid #023cdd; 
 }
 
@@ -402,7 +482,7 @@ footer {
 }
 
 @media (max-width: 768px) {
-  
+
     header {
         display: flex;
         justify-content: space-between;
@@ -411,13 +491,6 @@ footer {
         box-sizing: border-box;
     }
 
-  .logo {
-    cursor: pointer;
-    width: 50px; 
-    height: 50px;
-  }
-    
-    
     .nav-bar {
         padding-left: 0;
         margin-right: 0;
@@ -445,6 +518,32 @@ footer {
         font-size: 14px;
     }
 
+    .logo {
+    cursor: pointer;
+    width: 50px; 
+    height: 50px;
+}
+    
+    
+
+
+
+    .ul-nav{
+
+        display: none;
+
+
+
+    }
+
+
+
+
+
+    
+    
+    
+    
 
     .div-principal {
         width: 100%;
@@ -456,20 +555,32 @@ footer {
         box-sizing: border-box;
     }
 
+
+    .titulo .estamos-online{
+
+        margin-bottom: 60px;
+
+
+    }
+
+
+
     .titulo h1 {
-        font-size: 36px;
+        margin-bottom: 50px;
+        font-size: 30px;
         text-align: center;
         margin-top: 20px;
     }
 
     .p-titulo {
-        text-align: center;
-        font-size: 15px;
-        padding: 0 10px;
+      display: none;
     }
 
     .estamos-online {
-        width: 160px;
+        border-color: #0703ff solid 1px;
+   
+        inset-inline: 1px solid rgb(0, 47, 255);
+        width: 170px;
         font-size: 14px;
     }
 
@@ -486,7 +597,7 @@ footer {
     .cards {
         grid-template-columns: 1fr;
         width: 100%;
-        max-width: 410px;
+        max-width:410px;
         padding: 0 15px;
         box-sizing: border-box;
         gap: 55px;
