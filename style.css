@@ -385,7 +385,7 @@ main {
 
 .Card-efotball { background-image: url(assets/Efotball.png); }
 .Card-Fortnite { background-image: url(assets/Fortnite.png); }
-.Card-Bounty { background-image: url(/assets/BountyRush.png); }
+.Card-Bounty { background-image: url(assets/BountyRush.png); }
 .Card-Solo { background-image: url(assets/Solo.png); }
 .Card-Pokemon { background-image: url(assets/Pokemon.png); }
 .Card-FC { background-image: url(assets/Eafc.png); }
@@ -616,5 +616,6 @@ footer {
         gap: 20px;
     }
 }
+
 
 
