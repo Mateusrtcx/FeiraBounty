@@ -80,6 +80,17 @@ header {
 
 }
 
+
+.sidebar-list :hover{
+
+
+    color: #023cdd;
+
+
+
+
+}
+
 .sidebar{
     display: flex;
 }

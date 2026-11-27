@@ -93,6 +93,16 @@ header {
 }
 
 
+.sidebar-list :hover{
+
+
+    color: #023cdd;
+
+
+
+
+}
+
  
 .ul-list {
     align-items: center;
